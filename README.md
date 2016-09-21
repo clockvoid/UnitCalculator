@@ -1,8 +1,13 @@
 # UnitCalculator
 A Calculator that can calculate Units working on Android.
 
-##これは何
-Descriptionの通り,Androidで動作する,単位付きの値を計算できる電卓です.
+##Description
+Overviewの通り,Androidで動作する,単位付きの値を計算できる電卓です.
+
+##Install
+下記リンクよりapkをダウンロードして,提供元不明のアプリのインストール許可を取った端末にインストールしてください.
+
+[APK](https://drive.google.com/open?id=0B7rHRrR6FJ3YVkdhdjF4MHUwaWc "UnitCalculator.apk")
 
 ##Library
 [FormulaParser](https://github.com/clockvoid/FormulaParser "FormulaParser-master")
