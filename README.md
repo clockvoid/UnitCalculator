@@ -18,7 +18,7 @@ UIを見れば閃くはずだ・・・!
 [FormulaParser](https://github.com/clockvoid/FormulaParser "FormulaParser-master")
 
 ## License
-    Copylight (C) 2016 The TUS Cluster Challenge TEAM 23B
+    Copylight (C) 2016 clockvoid
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
