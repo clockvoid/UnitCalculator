@@ -5,4 +5,5 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="primary_text_material_dark">#FFFAFAFA</color>
+    <color name="button_ripple_color">#33FFFFFF</color>
 </resources>

@@ -1,7 +1,7 @@
 package com.a23bcluster.unitcalculator;
 
 /*
- * Copylight (C) 2016 The TUS Cluster Challenge TEAM 23B
+ * Copylight (C) 2016 clockvoid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -78,12 +78,13 @@ public class MainActivity extends Activity implements OnLongClickListener {
         String ans;
         try {
             ans = parser.compile().evaluate();
+
         } catch(RuntimeErrorException e) {
             ans = "runtime error : " + e.getMessage();
         } catch(SyntaxErrorException e) {
             ans = "syntax error : " + e.getMessage();
         }
-        result.setText("= " + ans);
+        result.setText("= " + ans.replaceAll("void\\^0", "").replaceAll("'", "･"));
     }
 
     private String createProgramString(List<String> arg0) {
@@ -179,7 +180,7 @@ public class MainActivity extends Activity implements OnLongClickListener {
             }
             case R.id.separate :{
                 if(inputMode == ON_SEPARATE) {
-                    program.add(".");
+                    program.add("'");
                     monitorProgram.add(((Button) view).getText().toString());
                     inputMode = ON_PREFIX;
                 }

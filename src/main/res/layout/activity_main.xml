@@ -20,6 +20,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="1dp"
+            android:cursorVisible="false"
             android:inputType="none"
             android:background="#FFFAFAFA" />
 
@@ -51,122 +52,61 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="T"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                style="@style/Button2"
-                android:textColor="@color/primary_text_material_dark"
-                android:background="@color/colorPrimaryLight"
-                android:onClick="onButtonClick"/>
+                style="@style/PrefixButtonStyle"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:id="@+id/prefix"
                 android:text="d"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="sec"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick" />
 
             <Button
                 android:id="@+id/unit"
                 android:text="min"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="hour"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="year"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/factor"
                 android:text="("
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/factor"
                 android:text=")"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/separate"
                 android:text="･"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/delete"
                 android:text="DEL"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
@@ -181,121 +121,61 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="G"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick" />
 
             <Button
                 android:id="@+id/prefix"
                 android:text="c"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="m"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="cd"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="F"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="Pa"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit_factor"
                 android:text="["
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit_factor"
                 android:text="]"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/exponet"
                 android:text="E"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/operator_divide"
                 android:text="÷"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
@@ -310,121 +190,61 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="M"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/prefix"
                 android:text="m"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="g"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="L"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="Ω"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="Hz"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="7"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="8"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="9"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/operator_time"
                 android:text="×"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
@@ -439,121 +259,61 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="k"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/prefix"
                 android:text="μ"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="A"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="W"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="V"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="Wb"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="4"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="5"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="6"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/operator_minus"
                 android:text="-"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
@@ -568,121 +328,61 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="h"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/prefix"
                 android:text="n"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="K"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="J"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="C"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/operator_power"
                 android:text="^"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="1"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="2"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="3"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/operator_add"
                 android:text="+"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
@@ -697,109 +397,56 @@
             <Button
                 android:id="@+id/prefix"
                 android:text="da"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/prefix"
                 android:text="p"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryLight"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/PrefixButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="mol"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="N"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/unit"
                 android:text="T"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/UnitButtonStyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/function_sqrt"
                 android:text="√"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/digit"
                 android:text="0"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/dot"
                 android:text="."
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
+                style="@style/NumericButtonSyle"
                 android:onClick="onButtonClick"/>
 
             <Button
                 android:id="@+id/equal"
                 android:text="="
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="0dp"
+                style="@style/NumericButtonSyle"
                 android:layout_weight="0.89"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/primary_text_material_dark"
                 android:onClick="onButtonClick"/>
 
         </LinearLayout>
