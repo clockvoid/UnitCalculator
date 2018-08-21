@@ -5,7 +5,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.a23bcluster.unitcalculator"
+        applicationId "com.lucciola.unitcalculator"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1

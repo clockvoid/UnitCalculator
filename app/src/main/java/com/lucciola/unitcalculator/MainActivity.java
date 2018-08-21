@@ -1,4 +1,4 @@
-package com.a23bcluster.unitcalculator;
+package com.lucciola.unitcalculator;
 
 /*
  * Copylight (C) 2016 clockvoid
