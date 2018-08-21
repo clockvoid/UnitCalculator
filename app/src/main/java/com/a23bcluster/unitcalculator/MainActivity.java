@@ -17,7 +17,6 @@ package com.a23bcluster.unitcalculator;
  */
 
 //import classes about android
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
