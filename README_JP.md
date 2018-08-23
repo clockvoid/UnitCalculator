@@ -2,24 +2,19 @@
 A Calculator that can calculate Units working on Android.
 
 ## Description
-This is a calculator app for android.
-This calculator can calculate formulas with units.
-
-This app is my practice kit to understand Android Architecture Components.
-
-For now, this app is refactoring to make with MVP architecture so, this app does not work well.
+Overviewの通り,Androidで動作する,単位付きの値を計算できる電卓です.
 
 ## Installation
-Please clone and build it.
+下記リンクよりapkをダウンロードして,提供元不明のアプリのインストール許可を取った端末にインストールしてください.
 
-```bash
-git clone https://github.com/clockvoid/UnitCalculator
-cd UnitCalculator
-gradle build
-```
+[UnitCalculator.apk](https://drive.google.com/folderview?id=0B7rHRrR6FJ3YeGEwRXZWYUdNN0U "UnitCalculator.apk")
+
+## Usage
+UIを見れば閃くはずだ・・・!
+
+ただし,文法的に絶対にそれが入り得ないところには各記号が入らないようになっているので,ボタンを押しても反応がないことがありますが,仕様です;)
 
 ## Library
-I use my making library. Please check it!
 [FormulaParser](https://github.com/clockvoid/FormulaParser "FormulaParser-master")
 
 ## License
