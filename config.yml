@@ -14,7 +14,9 @@ jobs:
          name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
          command: sudo chmod +x ./gradlew
       - run :
-         command: sdkmanager --update && yes | sdkmanager --licenses
+         command: |
+          mkdir $ANDROID_HOME/licenses
+          cat  "8933bad161af4178b1185d1a37fbf41ea5269c55\nd56f5187479451eabf01fb78af6dfcb131a6481e" > $ANDROID_HOME/licenses/android-sdk-license
       - run:
           name: Download Dependencies
           command: ./gradlew androidDependencies
